@@ -43,6 +43,8 @@ armDemo_vision_data_gen.py
 
 armDemo\_stage1\_integration2.py
 
+​	\# The first complete local version of this demo
+
 
 
 
