@@ -1,15 +1,10 @@
-import importlib
-from datetime import datetime
+# ============================================================================ #
+#                     Generate pictures with random objects                    #
+# ============================================================================ #
 import os
-
-import matplotlib.pyplot as plt
 import numpy as np
 from numpy import array as npa
-
-from VrepPythonApi import vrep
-from VrepPythonApi import vrep_ext
 from armDemo import ArmDemo, waitSecs
-from acerlib import logging_ext
 
 # ================================ parameters ================================ #
 nObj = 10
@@ -27,10 +22,6 @@ try:
     os.mkdir(os.path.join(pathname, pathname_run))
 except:
     print('Folder exists')
-
-# logger = logging_ext.DataLogger(os.path.join(pathname, 'data.txt'),
-#                                 '{}\t{}\t{}\t{}\t{}',
-#                                 ['isGetObject', 'targetX', 'targetY', 'targetZ', 'imgFile'])
 
 # ============================================================================ #
 #                               Connect to V-rep                               #

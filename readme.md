@@ -2,13 +2,15 @@
 
 armDemo_vision_data_gen.py
 
-​	/armDemo_vision_data_gen
+​	=> /armDemo_vision_data_gen
 
-​	**Full set** (10000 pics)
-​	run_single_2
-​	run_multi_1
+​		=>**Full set** (10000 pics)
 
-# Object center detection model (stage 1)
+​			run_single_2
+
+​			run_multi_1
+
+# Training object center detection model (stage 1)
 
 * armDemo\_stage1\_loadData.py
 * armDemo_stage\_1\_model\_2.py
@@ -17,7 +19,7 @@ armDemo_vision_data_gen.py
   \# Multi-object model
 * armDemo_stage\_1\_model\_4_multi.py
   * Multi-object model with high prediction
-  * gaussFilter = 2
+  * gaussFilter = 4
 * armDemo_stage\_1\_model\_4\_2\_multi.py
   * Same as armDemo_stage\_1\_model\_4_multi.py just with gaussFilter = 2
   * This is the current final model
